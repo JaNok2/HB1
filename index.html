@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy New Year 2023</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&amp;display=swap"
+    />
+
+    <style>
+      body {
+        -webkit-user-select: none; /* Safari */
+        -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+        user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+      }
+
+      .title {
+        white-space: nowrap; /* Prevent line breaks */
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        font-size: 7em;
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas">This browser does not support canvas.</canvas>
+
+    <h1 id="title" class="title">Birthday countdown:</h1>
+
+    <!-- countdown element -->
+    <div id="countdown-box" class="cdb">
+      <div class="cdi">
+        <span id="d">0</span>
+        <div id="d-lbl" class="cdi-lbl">DAYS</div>
+      </div>
+      <div class="cdi">
+        <span id="h">0</span>
+        <div id="h-lbl" class="cdi-lbl">HOURS</div>
+      </div>
+      <div class="cdi">
+        <span id="m">0</span>
+        <div id="m-lbl" class="cdi-lbl">MINUTES</div>
+      </div>
+      <div class="cdi">
+        <span id="s">0</span>
+        <div id="s-lbl" class="cdi-lbl">SECONDS</div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
