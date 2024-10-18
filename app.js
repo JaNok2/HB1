@@ -30,8 +30,8 @@ var x = setInterval(function () {
 			`<div class="feliz">Happy Birthday<br><br>have some fun</div>
          <div class="ano_novo">
             <span>1</span>
-            <span class="seis">7</span>
-            <span class="sete">8</span> <!-- Change the digit from 8 to 9 -->
+            <span class="seis">8</span>
+            <span class="sete">9</span> <!-- Change the digit from 8 to 9 -->
             <div class="balao"></div>
          </div>
          <div class="fogos">
