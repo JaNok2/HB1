@@ -1,5 +1,5 @@
 // Set date
-var countdownDate = new Date("December 29, 2023").getTime(); /* hrs: min: sec */
+var countdownDate = new Date("October 19, 2024").getTime(); /* hrs: min: sec */
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -31,7 +31,7 @@ var x = setInterval(function () {
          <div class="ano_novo">
             <span>1</span>
             <span class="seis">7</span>
-            <span class="sete">8</span> <!-- Change the digit from 7 to 8 -->
+            <span class="sete">8</span> <!-- Change the digit from 8 to 9 -->
             <div class="balao"></div>
          </div>
          <div class="fogos">
